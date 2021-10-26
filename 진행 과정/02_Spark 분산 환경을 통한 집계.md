@@ -18,4 +18,22 @@
 
 ## Zeppelin 설치
 
-`$ wget https://downloads.apache.org/zeppelin/zeppelin-0.9.0-preview2/zeppelin-0.9.0-preview2-bin-all.tgz`
+- `Docker` 이용
+
+`$ docker pull apache/zeppelin:0.8.2`
+```
+$ docker run -d --rm \
+  -p 4040:8080 \
+  -v $PWD/logs:/logs \
+  -v $PWD/data:/data \
+  -v $PWD/notebook:/notebook \
+  -e ZEPPELIN_ADDR='0.0.0.0' \
+  -e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
+  -e ZEPPELIN_LOG_DIR='/logs' \
+  -- name zeppelin apache/zeppelin:0.8.2
+```
+
+![image](https://user-images.githubusercontent.com/43158502/138888174-f551a5f6-6b91-4ce9-8060-57c17beda06d.png)
+
+![image](https://user-images.githubusercontent.com/43158502/138888757-9a864f75-a5c9-4256-bce1-f07461d2bccf.png)
+> Zeppelin이 제대로 설치된 것을 확인할 수 있다.
