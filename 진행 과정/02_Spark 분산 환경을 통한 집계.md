@@ -16,6 +16,8 @@
 
 > jupyter-console 내에서 Pyspark 가동 
 
+- zeppelin을 이용해서 python, scala 활용 및 시각화를 눈으로 확인하는게 나을 것 같아 Zeppelin 으로 진행 결정
+
 ## Zeppelin 설치
 
 - `Docker` 이용
