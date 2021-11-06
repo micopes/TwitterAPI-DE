@@ -8,15 +8,16 @@
 
 `$ export PYSPARK_DRIVER_PYTHON=jupyter-console`
 
-- Spark를 기동하고 MongoDB용의 패키지 추가(3.1.1 - Spark Version)
+- Spark를 기동하고 MongoDB용의 패키지 추가(2.2.0 - Spark Version)
 
-`$ pyspark --packages org.mongodb.spark:mongo-spark-connector_2.11:3.1.1`
+`$ pyspark --packages org.mongodb.spark:mongo-spark-connector_2.11:2.2.0`
 
 ![image](https://user-images.githubusercontent.com/43158502/138860835-e624a3d3-1bba-4332-a043-f4bf504a9842.png)
 
-> jupyter-console 내에서 Pyspark 가동 
+> jupyter-notebook or jupyter-console 내에서 Pyspark 가동 
 
-- zeppelin을 이용해서 python, scala 활용 및 시각화를 눈으로 확인하는게 나을 것 같아 Zeppelin 으로 진행 결정
+![image](https://user-images.githubusercontent.com/43158502/140610508-dfe5c7a3-07b3-4346-9de7-b7fbbe1d31ef.png)
+> Pyspark와 MongoDB 연동하여 언어별 Tweet 확인
 
 ## Zeppelin 설치
 
