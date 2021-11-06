@@ -1,5 +1,6 @@
 # Twitter Streaming API를 이용 데이터 엔지니어링
 
+#### 개발 전 세팅
 - 시작
 ```
 $ source schemaless-adhoc/bin/activate
