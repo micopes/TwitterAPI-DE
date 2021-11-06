@@ -6,7 +6,7 @@
 
 - 콘솔 환경에서 수행
 
-`$ export PYSPARK_DRIVER_PYTHON=jupyter-console`
+`$ export PYSPARK_DRIVER_PYTHON=jupyter-notebook`
 
 - Spark를 기동하고 MongoDB용의 패키지 추가(2.2.0 - Spark Version)
 
